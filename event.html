@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="event.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Roll the Dice</title>
+</head>
+<body class="body-custom text-light bg-body-dark">
+    <nav class="navbar navbar-expand-lg bg-body-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Roll the Dice</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#home">What</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#who">Who</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#whe">When and Where</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#register">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main id="home" class="jumbotron text-light">
+        <h1 class="display-4">Welcome to <i>Roll the Dice</i></h1>
+        <p class="lead">Come watch some of the best known voice actors in the gaming industry play an intense Tabletop RPG two-shot campain!</p>
+        <hr class="my-4">
+        <p>Embark on an epic adventure where your imagination knows no bounds! Join us for a thrilling tabletop RPG session where our players will become heroes, facing perilous challenges, unraveling mysteries, and forging unforgettable tales. </p>
+      </main>
+      <section id="who">
+        <div class="row text-light row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card text-bg-dark h-100">
+                <img src="who1.jpg" class="card-img-top" alt="Ooops! There seems to be a problem.">
+                <div class="card-body">
+                  <h5 class="card-title">Allana</h5>
+                  <p class="card-text">You might know Allana from some big action style games. In this campain she plays a gnome with a great fondness for catapults and gears. A proficient alchemist, she needs money to pay her debts and reopen the family apothecary.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark h-100">
+                <img src="who2.jpg" class="card-img-top" alt="Ooops! There seems to be a problem.">
+                <div class="card-body">
+                  <h5 class="card-title">Gustavo</h5>
+                  <p class="card-text">Gustavo is in a fan favorite car race game. This time he embodies a dwarf bard on a quest to recover a hometown relic of great importance to the population's safety.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark h-100">
+                <img src="who3.jpg" class="card-img-top" alt="Ooops! There seems to be a problem.">
+                <div class="card-body">
+                  <h5 class="card-title">Felipe</h5>
+                  <p class="card-text">Felipe is most known from hir work as a VO director in various productions. On our adventure, he guides a drow sorcerer determined to escape his legacy in the Underworld.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card text-bg-dark h-100">
+                <img src="who4.jpg" class="card-img-top" alt="Ooops! There seems to be a problem.">
+                <div class="card-body">
+                  <h5 class="card-title">Melina</h5>
+                  <p class="card-text">Melina is a powerhouse in the industry. We are very lucky to have her play an aasimar barbarian with memory loss. The sound of thunder calls to her and brings flashes of unwanted memories.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="whe">
+        <div class="card text-bg-dark">
+            <img src="whe1.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Session 1</h5>
+              <p class="card-text">Streamed live from the comfort of your own home!</p>
+              <p class="card-text"><small>April 13th</small></p>
+            </div>
+          </div>
+          <div class="col">
+            <p></p>
+          </div>
+          <div class="card text-bg-dark">
+            <img src="whe3.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Session 2</h5>
+              <p class="card-text">We’re so excited to finally come hang with you Cressida Supercon!</p>
+              <p class="card-text"><small>April 20th</small></p>
+            </div>
+          </div>
+      </section>
+      <form class="text-light" id="register">
+            <div class="mb-3">
+            <label for="inputName" class="form-label">First Name</label>
+            <input type="text" class="form-control bg-transparent" id="inputName">
+          </div>
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control bg-transparent" id="InputEmail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I want to receive updates and info about new events!</label>
+            </div>
+            <button type="submit" class="btn btn-outline-danger">Get your exclusive link!</button>   
+      </form>
+      <footer>
+        <div class="text-center p-3">
+          © Roll the Dice, 2024
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
